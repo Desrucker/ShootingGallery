@@ -1,44 +1,43 @@
 # Shooting Gallery Game
 
-A simple yet engaging shooting gallery game developed using the LÖVE framework for Lua.
+Welcome to the Shooting Gallery Game, a simple and engaging 2D shooter developed in Lua using the LÖVE framework. This game offers a straightforward yet challenging experience, perfect for players of all ages.
+
+## Overview
+
+In the Shooting Gallery Game, players aim to hit as many targets as possible within a given time limit. The game features a dynamic target spawning system, a scoring system, and a countdown timer for added challenge.
 
 ## Features
 
-- **Dynamic Targets**: Targets appear in random locations on the screen.
-- **Scoring System**: Earn points by accurately clicking on the targets.
-- **Time Limit**: Quick gameplay with a timer to challenge players.
-- **Custom Graphics**: Includes custom sprites for sky, target, and crosshairs.
+- **Dynamic Targets**: Targets randomly appear on the screen, challenging players to be quick and accurate.
+- **Scoring System**: Points are awarded for each hit, with a potential penalty for misses.
+- **Time-Based Gameplay**: Each session is time-limited, adding urgency and excitement to the gameplay.
+- **Custom Graphics**: The game includes custom sprites for the sky, target, and crosshairs.
 
-## Code Structure
+## How to Play
 
-### Global Variables
+- Start the game by clicking anywhere on the screen.
+- Move the mouse to aim at the targets.
+- Click to shoot at the targets.
+- Try to hit as many targets as possible before the timer runs out.
 
-- `target`, `score`, `timer`, `gameState`: Game state variables.
-- `gameFont`, `sprites`: Font and sprite variables.
+## Installation
 
-### Functions
+To play the game, you need to have the LÖVE framework installed on your computer. Follow these steps:
 
-#### `love.load()`
-Initializes game variables, loads sprites, and sets up the game environment.
+1. Download and install LÖVE from [love2d.org](https://love2d.org/).
+2. Clone this repository or download the game files.
+3. Run the game by dragging the game folder onto the LÖVE executable or using the command line.
 
-#### `love.update(dt)`
-Updates the game state, decreases timer, and resets game when the timer runs out.
+## Contributing
 
-#### `love.draw()`
-Handles all the drawing on the screen, including sprites and game text.
+Contributions to the game are welcome! Whether it's adding new features, fixing bugs, or improving the code, your help is appreciated.
 
-#### `targetGenerator()`
-Generates a new target at a random location.
+- Fork the repository.
+- Create a new branch for your feature or fix.
+- Commit your changes and open a pull request.
 
-#### `love.mousepressed(x, y, button)`
-Handles mouse click events for starting the game and shooting targets.
+## License
 
-#### `distanceBetween(x1, y1, x2, y2)`
-Calculates the distance between two points, used to determine if a target is hit.
+This project is licensed under the [MIT License](LICENSE).
 
-## Gameplay
-
-- Click to start the game. 
-- Aim and click on the targets to score points.
-- The game ends when the timer runs out.
-- Score as much as you can before the time ends!
+Enjoy the game, and happy shooting!
