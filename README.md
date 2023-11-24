@@ -36,8 +36,4 @@ Contributions to the game are welcome! Whether it's adding new features, fixing 
 - Create a new branch for your feature or fix.
 - Commit your changes and open a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 Enjoy the game, and happy shooting!
